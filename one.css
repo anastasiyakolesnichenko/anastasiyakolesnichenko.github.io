@@ -3,98 +3,78 @@ font-family: 'Raleway', sans-serif;}
 
 
 
-h2 {
+h1 {
 text-align:center;
 white-space:pre-wrap;
-color:grey;
-font-size: 25px;
-	padding-bottom: 30px;
+color:#363431;
+font-size: 30px;
+
 
 }
 
-h3 {
+
+p {
 
 	text-align:center;
 	white-space:pre-wrap;
-	color:grey;
-	font-size: 19p;
+	color:#4a4846;
+	font-size: 20px;
   right: 16px;
 }
 
-.text {
-
-		margin: 0 auto;
-
+nav {
+		background-color: #967ea6;
 }
 
 
-ul {
+nav ul {
 
-	text-align: center;
+
 	padding: 10px;
- position: relative;
-  bottom: 200px;
-  right: 10px;
-  font-size: 25px;
-	background-color: #967ea6;
-  opacity: 0.8;
+  font-size: 20px;
 }
 
-
-
-
-.bottomright {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
+.nav:link {
+color:white;
+text-decoration: none;
 
 }
 
-#home {
+.nav:hover {
+
+color: #ebc921;
+text-decoration: none;
+}
+
+.nav:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.brand-logo {
+font-size: 28px;
+font-weight: bold;
+color:#539da3;
+font-family: 'Bitter', serif;
+background: rgba(204, 204, 204, 0.3);
+
+}
+
+
+.home {
 
 	color:#ebc921;
 font-weight: bold;
+font-size: 19px;
 }
 
-li {
-	display: inline;
-	margin: 10px;
-}
-
-.container {
-  position: relative;
-}
-
-.topleft {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-	margin: 14px;
-  font-size: 28px;
+.card-title {
+	top: 20px;
+	right: 20px;
 	font-weight: bold;
-	color:#539da3;
-	font-family: 'Bitter', serif;
-  background: rgba(204, 204, 204, 0.3);
 }
 
-
-
-
-
-.centered {
-	position: absolute;
-  top: 40px;
-  left: 240px;
-}
-
-.main {
-  width: 100%;
-  height: auto;
-  opacity: 0.8;
-
-}
-
- .trying {
+ .card {
 
     opacity: 1;
     transition: opacity .25s ease-in-out;
@@ -103,24 +83,6 @@ li {
     }
 
 
-		.trying:hover {
+		.card:hover {
       opacity: 0.5;
       }
-
-
-			.nav:link {
-			color:white;
-text-decoration: none;
-
-			}
-
-			.nav:hover {
-
-			color: #ebc921;
-			text-decoration: none;
-			}
-
-			.nav:visited {
-			  color: white;
-				text-decoration: none;
-			}
